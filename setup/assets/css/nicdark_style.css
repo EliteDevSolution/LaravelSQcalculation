@@ -1,0 +1,193 @@
+/*
+	Author: Nicdark
+	Author URI: http://www.nicdarkthemes.com/
+*/
+
+@import "nicdark_shortcodes.css";
+@import "nicdark_menu.css";
+
+@import "fontello.css";
+@import "animate.css";
+@import "magnific-popup.css";
+
+
+/****************************************************************************
+	Table of Content
+***************************************************************************
+
+
+SOME BASIC CLASSES
+	1- body
+	2-container
+    3-site
+    4-section
+    5-grid
+    6-width section
+    7-headings tag
+    8-form elements
+    9-parallax section
+
+
+/* 1- START NICDARK FRAMEWORK*/
+body{ margin:0px; padding:0px; overflow-x:hidden; background-color: #ccc; }
+body.nicdark_boxed_img{ background-image: url(../img/img4.jpg) !important; background-size: cover; background-attachment: fixed; }
+
+/* 2 - CONTAINER */
+.nicdark_container{ width:1200px; margin:auto; padding: 0px; }
+.nicdark_clearfix:after { content: ""; display: block; height: 0; clear: both; visibility: hidden; }
+
+
+
+/* 3- START NICDARK_SITE*/
+.nicdark_site{ float: left; width: 100%; -webkit-transition: all 0.8s ease; -moz-transition: all 0.8s ease; -o-transition: all 0.8s ease; -ms-transition: all 0.8s ease; transition: all 0.8s ease; }
+.nicdark_site > .nicdark_site_fullwidth{ float: left; width: 100%; background-color: #fff; }
+.nicdark_site > .nicdark_site_boxed{ width:1220px; margin:auto; padding: 0px; background-color: #fff; }
+/*START NICDARK_SITE*/
+
+
+
+/* 4 - START NICDARKSECTION*/
+.nicdark_section{ width: 100%; float: left; }
+/*.nicdark_section.nicdark_imgparallax{ background: url(../img/img3.jpg) 50% 0 fixed; background-size: cover;}*/
+/*END NICDARKSECTION*/
+
+
+
+/* 5 - START NICDARKGRID*/
+.grid_1, .grid_2, .grid_3, .grid_4, .grid_5, .grid_6, .grid_7, .grid_8, .grid_9, .grid_10, .grid_11, .grid_12{ margin:10px; float:left; display:inline; }
+.grid.nomargin{ margin: 0px; padding: 10px; }
+.grid.percentage{ margin: 0px; padding: 0px; }
+.grid_12.percentage {width:100%;}
+.grid_6.percentage {width:50%;}
+.grid_4.percentage {width:33.33%;}
+.grid_3.percentage {width:25%;}
+.grid_8.percentage {width:66.66%;}
+.grid_9.percentage {width:75%;}
+/*size*/
+.grid_1 {width:80px;}
+.grid_2 {width:180px;}
+.grid_3 {width:280px;}
+.grid_4 {width:380px;}
+.grid_5 {width:480px;}
+.grid_6 {width:580px;}
+.grid_7 {width:680px;}
+.grid_8 {width:780px;}
+.grid_9 {width:880px;}
+.grid_10 {width:980px;}
+.grid_11 {width:1080px;}
+.grid_12 {width:1180px;}
+/*END NICDARKGRID*/
+
+
+
+/* 6 - START NIKDARKWIDTHPERCENTAGE*/
+.nicdark_width_percentage1{ width: 1% !important; }
+.nicdark_width_percentage10{ width: 10% !important; }
+.nicdark_width_percentage20{ width: 20% !important; }
+.nicdark_width_percentage25{ width: 25% !important; }
+.nicdark_width_percentage30{ width: 30% !important; }
+.nicdark_width_percentage40{ width: 40% !important; }
+.nicdark_width_percentage50{ width: 50% !important; }
+.nicdark_width_percentage60{ width: 60% !important; }
+.nicdark_width_percentage70{ width: 70% !important; }
+.nicdark_width_percentage80{ width: 80% !important; }
+.nicdark_width_percentage90{ width: 90% !important; }
+.nicdark_width_percentage100{ width: 100% !important; }
+/*END NIKDARKWIDTHPERCENTAGE*/
+
+
+
+/* 7 - START NICDARKTEXT*/
+p,h1,h2,h3,h4,h5,h6{ margin:0px; padding:0px; font-weight: normal; }
+/*font*/
+h1,h2,h3,h4,h5,h6,input[type="text"],textarea,select{ font-family: 'Montserrat', sans-serif; color: #868585; }
+h1.subtitle,h2.subtitle,h3.subtitle,h4.subtitle,h5.subtitle,h6.subtitle,input[type="text"].subtitle,textarea.subtitle,select.subtitle, span.subtitle{ font-family: 'Raleway', sans-serif; color:#a4a4a4; }
+h1.signature,h2.signature,h3.signature,h4.signature,h5.signature,h6.signature, span.signature{ font-family: 'Montez', cursive; }
+/*color*/
+p.white,h1.white,h2.white,h3.white,h4.white,h5.white,h6.white,a.white,i.white,span.white, input[type="text"].white, textarea.white, input[type="submit"].white, select.white{ color:#ffffff; }
+p.grey,h1.grey,h2.grey,h3.grey,h4.grey,h5.grey,h6.grey,a.grey,i.grey,span.grey, input[type="text"].grey, textarea.grey, input[type="submit"].grey, select.grey, pre.grey{ color:#a4a4a4; }
+p.greydark,h1.greydark,h2.greydark,h3.greydark,h4.greydark,h5.greydark,h6.greydark,a.greydark,i.greydark,span.greydark, input[type="text"].greydark, textarea.greydark, input[type="submit"].greydark, select.greydark{ color:#868585; }
+p.greydark2,h1.greydark2,h2.greydark2,h3.greydark2,h4.greydark2,h5.greydark2,h6.greydark2,a.greydark2,i.greydark2,span.greydark2, input[type="text"].greydark2, textarea.greydark2, input[type="submit"].greydark2, select.greydark2{ color:#353b3d; }
+p.green,h1.green,h2.green,h3.green,h4.green,h5.green,h6.green,a.green,i.green,span.green, input[type="text"].green, textarea.green, input[type="submit"].green, select.green{ color:#6fc191; }
+p.blue,h1.blue,h2.blue,h3.blue,h4.blue,h5.blue,h6.blue,a.blue,i.blue,span.blue, input[type="text"].blue, textarea.blue, input[type="submit"].blue, select.blue{ color:#74cee4; }
+p.violet,h1.violet,h2.violet,h3.violet,h4.violet,h5.violet,h6.violet,a.violet,i.violet,span.violet, input[type="text"].violet, textarea.violet, input[type="submit"].violet, select.violet{ color:#c389ce; }
+p.yellow,h1.yellow,h2.yellow,h3.yellow,h4.yellow,h5.yellow,h6.yellow,a.yellow,i.yellow,span.yellow, input[type="text"].yellow, textarea.yellow, input[type="submit"].yellow, select.yellow{ color:#edbf47; }
+p.orange,h1.orange,h2.orange,h3.orange,h4.orange,h5.orange,h6.orange,a.orange,i.orange,span.orange, input[type="text"].orange, textarea.orange, input[type="submit"].orange, select.orange{ color:#ec774b; }
+p.red,h1.red,h2.red,h3.red,h4.red,h5.red,h6.red,a.red,i.red,span.red, input[type="text"].red, textarea.red, input[type="submit"].red, select.red{ color:#e16c6c; }
+/*align*/
+p.center,h1.center,h2.center,h3.center,h4.center,h5.center,h6.center{ text-align: center; }
+p.right,h1.right,h2.right,h3.right,h4.right,h5.right,h6.right, span.right{ float: right; }
+/*size*/
+p{ font-size:15px; line-height: 22px; color:#a4a4a4; font-family: 'Raleway', sans-serif; }
+h1{ font-size: 30px; line-height: 30px; }
+h1.extrasize{ font-size: 45px; line-height: 45px; }
+h2{ font-size: 25px; line-height: 25px; }
+h3{ font-size: 20px; line-height: 20px; }
+h4{ font-size: 17px; line-height: 17px; }
+h5{ font-size: 15px; line-height: 15px; }
+h6{ font-size: 14px; line-height: 14px; }
+a{ text-decoration: none; color: #868585; }
+/*pre*/
+pre{ overflow: auto; float: left; width: 100%; margin:0px; padding: 0px; }
+pre p{ font-family: monospace; font-size: 13px; line-height: 22px; }
+/*END NICDARKTEXT*/
+
+
+
+/* 8 - START NICDARKFORMELEMENTS*/
+input[type="text"]{ float: left; border: 0; outline: 0; }
+textarea{ float: left; border: 0; outline: 0; }
+select{ float: left; border: 0; outline: 0; width: 100%; -webkit-appearance: none; cursor: pointer; }
+input[type="submit"]{ cursor: pointer; outline: 0; border: 0; }
+/*size*/
+input[type="text"].small, textarea.small { font-size: 15px; width: 90%; padding: 10px 5%; }
+input[type="text"].medium, textarea.medium { font-size: 17px; width: 90%; padding: 10px 5%; }
+input[type="text"].big, textarea.big { font-size: 17px; width: 80%; padding: 15px 10%; }
+/*size select*/
+select.small { font-size: 15px; padding: 10px 5%; }
+select.medium { font-size: 17px; padding: 10px 5%; }
+select.big { font-size: 17px; padding: 15px 10%; }
+/*END NICDARKFORMELEMENTS*/
+
+
+
+/*********************************************CUSTOM FOR BABY KIDS*************************************************************/
+
+/* 9 - START CLASS FOR PARALLAX SECTION*/
+.nicdark_parallax_img2 { background:url(../img/slide/img2.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallax_img3 { background:url(../img/slide/img3.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallax_img1 { background:url(../img/slide/img1.jpg) 50% 0 fixed; background-size:cover; }
+
+.nicdark_parallaxx_img1 { background: url(../img/parallax/img1.jpg) 50% 0 fixed; }
+.nicdark_parallaxx_img2 { background: url(../img/parallax/img2.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img3 { background: url(../img/parallax/img3.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img5 { background: url(../img/parallax/img5.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img6 { background: url(../img/parallax/img6.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img7 { background: url(../img/parallax/img7.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img8 { background: url(../img/parallax/img8.jpg) 50% 0 fixed; background-size:cover; }
+
+.nicdark_parallaxx_img-teachers-1 { background: url(../img/parallax/img-teachers-1.jpg) 50% 0 fixed; background-size:cover; }
+@media (max-width: 768px) {
+  .nicdark_parallaxx_img-teachers-1 { background: url(../img/parallax/img-teachers-mobile.jpg) 50% 0; background-size:cover; }
+}
+.nicdark_parallaxx_img-single-teacher-1 { background: url(../img/parallax/img-single-teacher-1.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img-single-teacher-2 { background: url(../img/parallax/img-single-teacher-2.jpg) 50% 0 fixed; background-size:cover; }
+
+.nicdark_parallaxx_img-excursions { background: url(../img/parallax/img-excursions.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img-single-excursion { background: url(../img/parallax/img-single-excursion.jpg) 50% 0 fixed; background-size:cover; }
+
+.nicdark_parallaxx_img-courses { background: url(../img/parallax/img-courses.jpg) 50% 0 fixed; background-size:cover; }
+
+.nicdark_parallaxx_img-events { background: url(../img/parallax/img-events.jpg) 50% 0 fixed; background-size:cover; }
+.nicdark_parallaxx_img-single-event { background: url(../img/parallax/img-single-event.jpg) 50% 0 fixed; background-size:cover; }
+/*END CLASS FOR PARALLAX SECTION*/
+
+
+
+/*START CUSTOM CLASS TO AVOID INLINE CSS*/
+.nicdark_width60 { width: 60px; }
+.nicdark_width50 { width: 50px; }
+
+.nicdark_copyrightlogo { background-image:url(../img/footer/copyright.jpg); background-size:95px; background-repeat:no-repeat; background-position:left; }
+.nicdark_facebook { background-color:#5977b8; box-shadow:0px 4px 0px 0px #4c67a1;  }
+/*END CUSTOM CLASS TO AVOID INLINE CSS*/

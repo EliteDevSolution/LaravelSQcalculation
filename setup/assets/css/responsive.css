@@ -1,0 +1,115 @@
+@media (max-width:767px ){ /*768*/
+	.stain-bg h1{
+		font-size: 2em;
+	}
+	.stain-bg>h3{
+		font-size: 1em;
+	}
+	.nicdark_btn_icon.extrabig{
+		padding: 2px;
+		font-size: 18px;
+	}
+	.nicdark_shadow.nicdark_bg_orange{
+		box-shadow: 0 0 0 0;
+	}
+	.greydark.color_404547 strong{
+		font-size: 21px;
+	}
+	.subtitle.color_404547 strong{
+		font-size: 17px;
+	}
+	.bng-quiz {
+    padding: 0px 10%;
+	}
+	.nicdark_table.extrabig tr td{
+		padding: 10px 20px;
+	}
+	.nicdark_table.extrabig tr td h3{
+		font-size: 16px;
+	}
+
+	#progress{
+		position: absolute;
+		top: -45px;
+		right: 0;
+		width: 35% !important;
+	}
+	#progress span {
+		margin: 10px 0;
+	}
+
+	.nicdark_btn_icon.small{
+		padding: 5px;
+		font-size: 13px;
+	}
+	.bng-description-title h2{
+		font-size: 18px;
+	}
+	.bng-description-title h3{
+		font-size: 16px;
+	}
+}
+@media (min-width: 769px) and (max-width: 992px){
+	#progress{
+		width: 25% !important;
+	}
+	.bng-edit-date span{
+		font-size: 14px;
+	}
+	.bng_view_image{
+		height: 316px !important;
+	}
+
+}
+.bng_view_image {
+	object-fit: cover;
+}
+@media (min-width: 1200px){
+	.bng_view_image{
+		width: 232px !important;
+		height: 212px !important;
+	}
+}
+@media(max-width: 489){
+	.bng_view_image{
+		height: 251px !important;
+	}
+}
+.bng-report{
+	font-family: "Raleway" ,sans-serif;
+	font-size: 13px;
+}
+.bng-report span, .bng-report h1{
+	color: #2c8993;
+	font-weight: bold;
+}
+.bng-body-report{
+	background-color: #fff;
+}
+.bng-report p{
+	color: #000;
+}
+.bng-body-report table{
+	margin: 10px 0;
+}
+.bng-body-report tr td{
+	padding:2px 5px;
+}
+.bng-table-scores tr td:first-child{
+	text-align: right;
+}
+.bng-table-rang tr td:nth-child(4){
+	text-align: right;
+}
+.bng-text-red{
+	color: #cc0000 !important;
+}
+.bng-table-notes tr td:nth-child(3) ,.bng-table-notes tr td:nth-child(4), .bng-table-notes tr td:nth-child(5), .bng-table-notes tr td:nth-child(6){
+	text-align: center;
+}
+.nicdark_bg_info_btn{
+	background-color: #5bc0de;
+}
+.nicdark_shadow.nicdark_bg_info_btn {
+    box-shadow: 0px 4px 0px 0px #41b5d8;
+}

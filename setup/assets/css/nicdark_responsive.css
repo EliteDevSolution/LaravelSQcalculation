@@ -1,0 +1,131 @@
+/*ipad land*/
+@media only screen and (min-width: 960px) and (max-width: 1199px) {
+	.nicdark_container{width:960px;}
+	.grid_1 {width:60px;}.grid_2 {width:140px;}.grid_3 {width:220px;}.grid_4 {width:300px;}.grid_5 {width:380px;}.grid_6 {width:460px;}.grid_7 {width:540px;}.grid_8 {width:620px;}.grid_9 {width:700px;}.grid_10 {width:780px;}.grid_11 {width:860px;}.grid_12 {width:940px;}
+
+	/*some class*/
+	.nicdark_disable_marginleft_ipadland, .nicdark_disable_marginleft_responsive{ margin-left: 0px !important; }
+	.nicdark_aligncenter_ipadland, .nicdark_aligncenter_responsive { text-align: center !important; }
+	.nicdark_width100_ipadland, .nicdark_width100_responsive { width: 100% !important; }
+
+	/*disable float*/
+	.nicdark_disable_floatleft_ipadland { float: initial !important; }
+	.nicdark_disable_floatright_ipadland { float: initial !important; }
+
+	/*boxed*/
+	.nicdark_site_boxed, .nicdark_menu_boxed{ width: 980px !important; }
+
+	/*display*/
+	.nicdark_displaynone_ipadland, .nicdark_displaynone_responsive{ display: none; }
+	.nicdark_displaynone_desktop { display: block !important; }
+
+	/*navigation*/
+	.slowup{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.slowdown{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.tinynav{ display:none; }
+
+
+	/*megamenu*/
+	.nicdark_megamenu .mm_grid_3{ width: 235px !important; }
+	.nicdark_megamenu .mm_grid_4{ width: 313px !important; }
+	.nicdark_megamenu .mm_grid_6{ width: 470px !important; }
+	.nicdark_megamenu > ul{ width: 940px !important; margin-left: -470px !important; }
+	/*megamenu*/
+
+}
+/*ipad potr*/
+@media only screen and (min-width: 768px) and (max-width: 959px) {
+	.nicdark_container {width:744px;}
+	.grid_1 {width:42px;}.grid_2 {width:104px;}.grid_3 {width:166px;}.grid_4 {width:228px;}.grid_5 {width:290px;}.grid_6 {width:352px;}.grid_7 {width:414px;}.grid_8 {width:476px;}.grid_9 {width:538px;}.grid_10 {width:600px;}.grid_11 {width:662px;}.grid_12 {width:724px;}
+
+	/*some class*/
+	.nicdark_disable_marginleft_ipadpotr, .nicdark_disable_marginleft_responsive{ margin-left: 0px !important; }
+	.nicdark_aligncenter_ipadpotr, .nicdark_aligncenter_responsive { text-align: center !important; }
+	.nicdark_width100_ipadpotr, .nicdark_width100_responsive { width: 100% !important; }
+
+	/*disable float*/
+	.nicdark_disable_floatleft_ipadpotr { float: initial !important; }
+	.nicdark_disable_floatright_ipadpotr { float: initial !important; }
+
+	/*boxed*/
+	.nicdark_site_boxed, .nicdark_menu_boxed{ width: 788px !important; }
+
+	/*display*/
+	/*.nicdark_displaynone_ipadpotr, .nicdark_displaynone_responsive{ display: none !important; }*/
+	.nicdark_displaynone_desktop { display: block !important; }
+
+	/*navigation*/
+	.slowup{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.slowdown{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.tinynav{ display:block; }
+	.nicdark_menu{ display:none; }
+
+
+}
+/*iphone land*/
+@media only screen and (min-width: 480px) and (max-width: 767px) {
+	body{ -webkit-text-size-adjust:none; }
+	.nicdark_container {width:460px;}
+	.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12{ width: 440px; }
+	.grid.percentage{ width: 100%; }
+	.nicdark_width_percentage10,.nicdark_width_percentage20,.nicdark_width_percentage25,.nicdark_width_percentage30,.nicdark_width_percentage40,.nicdark_width_percentage50,.nicdark_width_percentage60,.nicdark_width_percentage70,.nicdark_width_percentage80,.nicdark_width_percentage90,.nicdark_width_percentage100 { width: 100% !important; }
+
+
+	/*some class*/
+	.nicdark_disable_marginleft_iphoneland, .nicdark_disable_marginleft_responsive{ margin-left: 0px !important; }
+	.nicdark_marginleft20_iphoneland { margin-left: 20px !important; }
+	.nicdark_aligncenter_iphoneland, .nicdark_aligncenter_responsive { text-align: center !important; }
+	.nicdark_width100_iphoneland, .nicdark_width100_responsive { width: 100% !important; }
+
+	/*disable float*/
+	.nicdark_disable_floatleft_iphoneland { float: initial !important; }
+	.nicdark_disable_floatright_iphoneland { float: initial !important; }
+
+	/*boxed*/
+	.nicdark_site_boxed, .nicdark_menu_boxed{ width: 500px !important; }
+
+	/*display*/
+	.nicdark_displaynone_iphoneland, .nicdark_displaynone_responsive{ display: none; }
+	.nicdark_displaynone_desktop { display: block !important; }
+
+
+	/*navigation*/
+	.slowup{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.slowdown{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.tinynav{ display:block; }
+	.nicdark_menu{ display:none; }
+
+}
+/*iphone potr*/
+@media (max-width: 479px){
+	body{ -webkit-text-size-adjust:none; }
+	.nicdark_container{ width:300px;}
+	.grid_1,.grid_2,.grid_3,.grid_4,.grid_5,.grid_6,.grid_7,.grid_8,.grid_9,.grid_10,.grid_11,.grid_12{ width: 280px; }
+	.grid.percentage{ width: 100%; }
+	.nicdark_width_percentage10,.nicdark_width_percentage20,.nicdark_width_percentage25,.nicdark_width_percentage30,.nicdark_width_percentage40,.nicdark_width_percentage50,.nicdark_width_percentage60,.nicdark_width_percentage70,.nicdark_width_percentage80,.nicdark_width_percentage90,.nicdark_width_percentage100 { width: 100% !important; }
+
+
+	/*some class*/
+	.nicdark_disable_marginleft_iphonepotr, .nicdark_disable_marginleft_responsive { margin-left: 0px !important; }
+	.nicdark_marginleft20_iphonepotr { margin-left: 20px !important; }
+	.nicdark_aligncenter_iphonepotr, .nicdark_aligncenter_responsive { text-align: center !important; }
+	.nicdark_width100_iphonepotr, .nicdark_width100_responsive { width: 100% !important; }
+
+	/*disable float*/
+	.nicdark_disable_floatleft_iphonepotr { float: initial !important; }
+	.nicdark_disable_floatright_iphonepotr { float: initial !important; }
+
+	/*boxed*/
+	.nicdark_site_boxed, .nicdark_menu_boxed{ width: 340px !important; }
+
+	/*display*/
+	.nicdark_displaynone_iphonepotr, .nicdark_displaynone_responsive{ display: none; }
+	.nicdark_displaynone_desktop { display: block !important; }
+
+
+	/*navigation*/
+	.slowup{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.slowdown{ -webkit-animation: none; animation: none; margin-top: 0px !important; }
+	.tinynav{ display:block; }
+	.nicdark_menu{ display:none; }
+}
